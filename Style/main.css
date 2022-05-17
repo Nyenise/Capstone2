@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    padding: 0;
+    background-color: wheat;
+}
+.topnav{
+    padding-top: 10px;
+}
+.topnav-right {
+    float: right;
+
+}
+.topnav-right a:hover {
+    background-color: rgb(92, 64, 30);
+    color: black;
+}
+
+
+/*  .topnav-right a.active {
+    background-color: #0423aa5b;
+    color: white;
+  }*/
+a{
+    text-decoration: none;
+}
+
+.navbar-brand{
+    margin-left: 20px;
+}
+
+a{
+        color: black;
+}
+
+  .menuItem {
+    display: block;
+    margin: 2rem 4rem;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menuItem:hover {
+    text-decoration: underline;
+  }
+  
+  .hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    border: black solid 1px;
+    background: white;
+    cursor: pointer;
+    align-content: center;
+  }
+  
+  .closeIcon {
+    display: none;
+  }
+  
+  .menu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: black;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+  }
+  
+  .showMenu {
+    transform: translateY(0);
+  }
+.material-icons{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    
+}
+
+#togglePassword{
+    color: black;
+}
+
+
+@media screen and (max-width: 480px) {
+    
+
+    .plan{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+    
+}
+
+@media screen and (min-width: 485px) and (max-width: 750px) {
+
+    .plan{
+        width: 47%;
+    }
+    
+}
+
+@media screen and (max-width: 575px) {
+
+    .right{
+        width: 100%;
+    }
+    
+}
